@@ -94,3 +94,38 @@
 
 .w3-center{text-align:center!important}
 
+@layer components {
+  .footer {
+    @apply bg-blackish w-screen h-auto text-white py-7 px-7 text-2xl flex flex-col space-y-4 justify-center flex-grow-0 overflow-hidden;
+  }
+
+  .big-screen::before {
+    @apply p-5;
+  }
+
+  .dash-tabs {
+    @apply h-[33.33%] grid place-items-center text-[1.2em] font-semibold cursor-pointer;
+  }
+
+  .sidebarContainer {
+    @apply bg-white w-[95vmin] text-base absolute h-[30em] grid grid-tm-col grid-cols-10;
+  }
+  .sidebarTabs {
+    @apply flex flex-col justify-around h-screen bg-lightGray;
+  }
+  .sidebarTabsContents {
+    @apply bg-white py-[1em] px-[1.5em] relative;
+  }
+  
+  .sidebarTabsContents div {
+    @apply hidden;
+  }
+
+  .hovered-get-started{
+    @apply 
+  }
+
+  .footer-i{
+    @apply flex flex-row-reverse space-x-3 float-right
+  }
+}
