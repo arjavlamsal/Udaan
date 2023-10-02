@@ -1114,3 +1114,136 @@ video {
   display: none;
 }
 
+.footer-i {
+  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.footer-i > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.grid-tm-col {
+  /* grid-template-columns: 3fr 10fr; */
+  grid-template-columns: 300px 1620px ;
+}
+
+.sidebarTabsContents .active {
+  display: block;
+}
+
+.sidebarTabs .active {
+  background-color: #a6a1d4;
+  color: rgb(26, 1, 66);
+}
+
+.header{
+  font-family: 'Oswald', sans-serif;
+  font-size: xx-large;
+}
+
+.header-sm{
+  font-family: 'Oswald', sans-serif;
+  font-size: xx-small;
+}
+
+.text{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.main-header{
+  font-size: 48px;
+}
+
+.test:hover{
+  background-color: black;
+  transition-duration: 200ms
+}
+
+.fa-instagram:hover{
+  background: -webkit-linear-gradient(purple,rgb(189, 16, 125),red,orangered,orange,yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 500ms
+}
+
+.fa-facebook:hover{
+  background: -webkit-linear-gradient(#4267B2 100%, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 500ms
+}
+
+.fa-discord:hover{
+  background: -webkit-linear-gradient(#5865F2 100%, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 500ms
+}
+
+.fa-twitter:hover{
+  background: -webkit-linear-gradient(#00acee 100%, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 500ms
+}
+
+.fa-linkedin:hover{
+  background: -webkit-linear-gradient(#0072b1 100%, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 500ms
+}
+
+.fa-pinterest:hover{
+  background: -webkit-linear-gradient(#E60023 100%, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 500ms
+}
+
+.fa-youtube:hover{
+  background: -webkit-linear-gradient(#FF0000 100%, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 500ms
+}
+
+.fa-tikrok:hover{
+  background: -webkit-linear-gradient(#ff0050, #00f2ea, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 500ms
+}
+
+.w3-center{
+  text-align:center!important
+}
+
+.hover\:border-green-300:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(134 239 172 / var(--tw-border-opacity));
+}
+
+.hover\:px-7:hover {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.focus\:border-green-900:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(20 83 45 / var(--tw-border-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
