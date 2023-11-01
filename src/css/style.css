@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Montserrat:wght@500&family=Poppins:wght@200&display=swap");
+@import url("http://fonts.cdnfonts.com/css/duhai");
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+
+body {
+  font-family: "Duhai", sans-serif;
+}
+
+.page section {
+  height: 90vh;
+}
+
+a {
+  text-decoration: none;
+}
+h1 {
+  opacity: 1;
+}
+
+.page section#about {
+  background-image: url(../../media/gallery3.png);
+  background-color: antiquewhite;
+  background-size: cover;
+  position: relative;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-container a {
+  background-color: #d43517;
+  padding: 24px;
+  font-size: 20px;
+  text-align: center;
+  transition: 1s;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.grid-container a:hover {
+  background-color: white;
+  color: black;
+}
+
+section#logo {
+  background-image: url(../../media/landing.jpeg);
+  background-size: cover;
+  height: 90vh;
+  font-family: "Bubblegum Sans", cursive;
+}
+
+section#logo h1 {
+  color: #ff422a;
+  font-family: "Bubblegum Sans", cursive;
+  cursor: pointer;
+  font-size: 11rem;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+}
+
+section#logo p {
+  color: #606060;
+  font-size: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+section#logo h1:hover {
+  font-size: 15rem;
+  
+}
+
+nav div#container-fluid {
+  background-color: red;
+}
+
+section#logo button {
+  transition-duration: 0.4s;
+  position: absolute;
+  font-size: x-large;
+  background-color: white;
+  color: black;
+  left: 47%;
+  top: 69%;
+  transform: translate(-30%, -50%);
+  border: 1px solid;
+  padding: 5px;
+  width: 200px;
+}
+
+section#logo button:hover {
+  background-color: red;
+  color: white;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+}
+
+nav a {
+  font-size: 20rem;
+}
+
+.grid-img {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-img img {
+  margin-top: 90px;
+  margin-left: 130px;
+  height: 225px;
+  width: auto;
+  color: black;
+}
+
+section#gif {
+  background-attachment: fixed;
+  background-image: url(../../media/gif\ bg.png);
+  background-size: cover;
+  height: 70vh;
+}
+
+.grid-text {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-text li {
+  margin-top: 10px;
+  margin-left: 120px;
+  height: 225px;
+  font-size: 1.5rem;
+  width: auto;
+  color: black;
+  list-style: none;
+  display: flex;
+  transition: 1s;
+}
+
+p#main {
+  color: #ff422a;
+}
+
+.grid-imgs {
+  display: grid;
+  grid-template-columns: auto 5px auto;
+  background-color: rgba(0, 0, 0, 0.125);
+  padding: 100px 200px;
+}
+.grid-item-left {
+  text-align: right;
+}
+.grid-item {
+  background-color: black;
+}
+
+.grid-imgs img {
+  height: 300px;
+  width: 300px;
+}
+
+.grid-imgs p {
+  font-size: 1.25rem;
+}
+
+p#i3 {
+  color: ora;
+}
+
+.grid-service {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 50px 10px;
+  /* background-image: linear-gradient(
+    rgba(0, 0, 0, 0.125),
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.075),
+    rgba(0, 0, 0, 0.05),
+    #d43517
+  ); */
+}
+.grid-service-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-service-item img {
+  width: 300px;
+  transition: 0.5s;
+}
+
+.grid-service-item img:hover {
+  width: 400px;
+} 
+
+.grid-service-item p {
+  font-size: 1.25rem;
+}
